@@ -1,9 +1,11 @@
+import Products from "@/components/Products";
+
 import Image from "next/image";
 
-export default function Home() {
+export default async function Home() {
   return (
-    <div>
-      <h2>Planteplaneter</h2>
-    </div>
+    <section>
+      <h3>Main</h3>
+    </section>
   );
 }
